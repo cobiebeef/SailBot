@@ -6,6 +6,7 @@ Welcome the official UMass SailBot Team GitHub!
 2. Who We Are
 3. Sailbot
 4. Core Values
+5. What's Here
 
 # 1 Intro
 The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition. Our goal is to build an autonomous sailboat, enter it into the competition and place. The team was started during the 2019 fall semester by @cobiebeef, a past competitor in SailBot.
@@ -14,10 +15,17 @@ The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition.
 UMass Sailbot is a Team of EE, Comp-E, ME, IE, and CS students at the University of Massachusetts Amherst.
 Member history:
 - 2019 - 2020:
-  -__President:__ Cobie Yung
-  -__Vice President:__ Luke Lacasse
-  -__Secritary:__ Malcolm Okaya
-  -__Treasurer:__ Sebastion Harder
+  - __President:__ Cobie Yung
+  - __Vice President:__ Luke LaCasse
+  - __Secretary:__ Malcolm Okaya
+  - __Treasurer:__ Sebastion Harder
+  - Gagan Biradar
+  - Sameer Kamath
+  - Zalman Lipschitz
+  - Joseph Maloyan
+  - Henry Powell
+  - Liam Rees
+  - Taiyo Shapiro
 
 
 # 3 SailBot
@@ -35,3 +43,6 @@ The UMass SailBot Team has these core values:
 - Keeping it __Opensource__
 - Showing __Good Sportsmanship__
 - __Conserving__ Aquatic Habitats
+
+# 5 What's Here
+In this Git you will find the code that we made to drive our boat along with a fleshed out Wiki on every aspect of it (and a few misc. items). You should expect to find Arduino C++ code for our rapid prototyping phase of the project, some python code for simulation and machine vision, and some c code for the finial product. Also expect some of the graphic design and CAD that went along with the project.
