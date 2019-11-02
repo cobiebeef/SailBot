@@ -1,4 +1,4 @@
-# UMass SailBot :boat:
+# UMass SailBot
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents
