@@ -1,10 +1,15 @@
-<h1>SailBot</h1>
-<hr>
-<p>Welcome the the official UMass SailBot Team GitHub!</p>
-<h1>H1</h1>
-<h2>H2</h2>
-<h3>H3</h3>
-<h4>H4</h4>
-<h5>H5</h5>
-<h6>h6</h6>
-<a href="https://www.sailbot.org">sailbot</a>
+# UMass SailBot
+Welcome the the official UMass SailBot Team GitHub!
+
+# Table of Contents
+1. Intro
+2. Detailed Description
+3. Values
+
+# Intro
+The UMass SailBot Team is a competator in the annual IRSR "SailBot" Competition.</p>
+
+```python
+def boi_is_kool(me):
+  return "cobie is the coolest"
+ ```
