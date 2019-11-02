@@ -12,7 +12,7 @@ Welcome the official UMass SailBot Team GitHub!
 The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition. Our goal is to build an autonomous sailboat, enter it into the competition and place. The team was started during the 2019 fall semester by @cobiebeef, a past competitor in SailBot.
 
 # 2 Who We Are
-UMass Sailbot is a Team of EE, Comp-E, ME, IE, and CS students at the University of Massachusetts Amherst.
+UMass Sailbot is a Team of EE, Comp-E, ME, IE, and CS majors at the University of Massachusetts Amherst.
 Member history:
 - 2019 - 2020:
   - __President:__ Cobie Yung
