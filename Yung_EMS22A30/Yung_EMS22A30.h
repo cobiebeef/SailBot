@@ -1,17 +1,16 @@
 /*!
- * YUNG_EMS22A30.h
- * By Cobie Yung
+ * @flie Yung_EMS22A30.h
  *
- * Headder file for using the EMS22A30 rotary encoder.
+ * This is a library for the EMS22A30 rotary encoder
  *
  * Revision History:
- * 	Version 0.0.01 Initil Commit
+ *     Version 0.0.01 Initil Commit
  *
  * Notes:
  */
 
-/** include files for ease of use **/ 
 #include "Arduino.h"
+
 #include <SPI.h>
 
 class Yung_EMS22A30

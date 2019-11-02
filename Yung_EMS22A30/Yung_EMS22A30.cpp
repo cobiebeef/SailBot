@@ -1,15 +1,14 @@
 /*!
  * @file Yung_EMS22A30.cpp
  *
- *	This is a library for the EMS22A30 rotary encoder
+ * This is a library for the EMS22A30 rotary encoder
  *
  * Revision History:
- * 	Version 0.0.01 Initil Commit
+ *     Version 0.0.01 Initil Commit
  *
  * Notes:
  */
 
-// include files for ease of use
 #include "Arduino.h"
 
 #include <SPI.h>
@@ -17,14 +16,16 @@
 #include "Yung_EMS22A30.h"
 
 /*!
-*/
+ * Initializarion
+ */
 Yung_EMS22A30::Yung_EMS22A30(int pin) 
 {
 	ss = pin;
 }
 
 /*!
-*/
+ * Read the data from the rotatry encoder
+ */
 uint16_t Yung_EMS22A30::read()
 {
 	digitalWrite(ss, LOW);
@@ -38,14 +39,17 @@ uint16_t Yung_EMS22A30::read()
 }
 
 /*!
-*/
+ * Get the angle from the EMS22A30
+ */
 uint16_t Yung_EMS22A30::getAngle()
 {
 	uint16_t angle = 0;
 	uint16_t data = read();
 	
+	/** Check for even parity **/
 	if(!parityCheck(data))
 	{
+		/** Grab the first 10 bits **/
 		angle = data >> 6;
 	}
 	
@@ -53,7 +57,9 @@ uint16_t Yung_EMS22A30::getAngle()
 }
 
 /*!
-*/
+ * Check for parity
+ * Returns 1 for odd parity, returns 0 for even parity
+ */
 bool Yung_EMS22A30::parityCheck(uint16_t data)
 {
 	bool parity = 0; 
@@ -68,7 +74,8 @@ bool Yung_EMS22A30::parityCheck(uint16_t data)
 }
 
 /*!
-*/
+ * Start up the SPI commuinication protocall
+ */
 void Yung_EMS22A30::begin()
 {
 	SPI.begin();
