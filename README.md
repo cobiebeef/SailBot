@@ -2,14 +2,14 @@
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents 1
-1. [Intro](# 1. Intro)
-2. Who We Are
-3. Sailbot
-4. Core Values
-5. What's Here
-6. For Team Members
-7. Table of Contents 2
-  1. 
+1. [Intro](https://github.com/cobiebeef/SailBot/blob/master/README.md#1-intro)
+2. [Who We Are](README.md#1-intro)
+3. [Sailbot]()
+4. [Core Values]()
+5. [What's Here]()
+6. [For Team Members]()
+7. [Table of Contents 2]()
+   1. Header Comments
 
 # 1. Intro
 The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition. Our goal is to build an autonomous sailboat, enter it into the competition and place. The team was started during the fall 2019 semester by @cobiebeef, a past competitor in SailBot.
@@ -60,7 +60,7 @@ Hello team! This section will tell you how to contribute code to this Git; this 
    1. C/C++
    2. Python
   
-# 1. Headder Comments
+# 1. Header Comments
 Headder comments shall include:
 - The name of the file
 - The purpose of the file
