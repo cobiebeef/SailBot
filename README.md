@@ -2,12 +2,12 @@
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents 1
-1. [Intro](README.md##1-intro)
-2. [Who We Are](README.md##2-who-we-are)
-3. [SailBot](README.md##3-sailbot)
-4. [Core Values](README.md##4-core-values)
-5. [What's Here](README.md##5-whats-here)
-6. [For Team Members](README.md##6-for-team-members)
+1. [Intro](README.md#1-intro)
+2. [Who We Are](README.md#2-who-we-are)
+3. [SailBot](README.md#3-sailbot)
+4. [Core Values](README.md#4-core-values)
+5. [What's Here](README.md#5-whats-here)
+6. [For Team Members](README.md#6-for-team-members)
 7. [Table of Contents 2](README.md#table-of-contents-2)
 
 ## 1. Intro
@@ -55,9 +55,9 @@ In this Git you will find the code that we made to drive our boat along with a f
 Hello team! This section will tell you how to contribute code to this Git; this includes a little bit of bookkeeping. Refer to __Table of Contents 2__ for info!
 
 # Table of Contents 2
-1. [Headder Comments](README.md##1-header-comments)
-   1. [C/C++](README.md###1-cc)
-   2. [Python](###2-python)
+1. [Headder Comments](README.md#1-header-comments)
+   1. [C/C++](README.md#1-cc)
+   2. [Python](#2-python)
   
 ## 1. Header Comments
 Headder comments shall include:
