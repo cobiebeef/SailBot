@@ -9,6 +9,9 @@ Welcome the official UMass SailBot Team GitHub!
 5. [What's Here](#5-whats-here)
 6. [For Team Members](#6-for-team-members)
 7. [Table of Contents 2](#table-of-contents-2)
+   1. [Headder Comments](#1-header-comments)
+      1. [C/C++](#1-cc)
+      2. [Python](#2-python)
 
 ## 1. Intro
 The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition. Our goal is to build an autonomous sailboat, enter it into the competition and place. The team was started during the fall 2019 semester by @cobiebeef, a past competitor in SailBot.
@@ -84,7 +87,7 @@ A basic template for a C/C++ headder comment:
  *
  * notes:
  *      [date]: [note]
- *      [old notes]
+ *      [date]: [old notes]
  *
  * contributors:
  *      [contributors]
@@ -105,8 +108,8 @@ version:
     [past verion] - [date]: [changes]
 
 notes:
-    [notes]
-    [old notes]
+    [date]: [note]
+    [date]: [old notes]
 
 contributors:
     [contributors]
