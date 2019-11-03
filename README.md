@@ -95,18 +95,21 @@ __2. Python__ <br>
 A basic template for a C/C++ headder comment:
 ```python
 """
-[filename]
+filename: [filename]
 
-[purpose]
+purpose: [purpose]
 
-[usage]
+use: [use]
 
-[version, changes]
-[past verions, changes]
+version:
+    [version] - [date]: [changes]
+    [past verion] - [date]: [changes]
 
-[notes]
-[old notes]
+notes:
+    [notes]
+    [old notes]
 
-[contributors]
+contributors:
+    [contributors]
 """
 ```
