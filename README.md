@@ -72,7 +72,7 @@ Headder comments shall include:
 __1. C/C++__ <br>
 A basic template for a C/C++ headder comment:
 ```c
-\*!
+/*!
  * filename: [filename]
  *
  * purpose: [purpose]
@@ -89,7 +89,7 @@ A basic template for a C/C++ headder comment:
  *
  * contributors:
  *      [contributors]
- *\
+ */
 ```
 __2. Python__ <br>
 A basic template for a C/C++ headder comment:
