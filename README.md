@@ -2,13 +2,13 @@
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents 1
-1. [Intro](https://github.com/cobiebeef/SailBot/blob/master/README.md#1-intro)
-2. [Who We Are](README.md#1-intro)
-3. [Sailbot]()
-4. [Core Values]()
-5. [What's Here]()
-6. [For Team Members]()
-7. [Table of Contents 2]()
+1. [Intro](README.md#1-intro)
+2. [Who We Are](README.md#2-who-we-are)
+3. [SailBot](README.md#3-sailbot)
+4. [Core Values](README.md#4-core-values)
+5. [What's Here](README.md#5-whats-here)
+6. [For Team Members](README.md#6-for-team-members)
+7. [Table of Contents 2](README.md#7-table-of-contents-2)
    1. Header Comments
 
 # 1. Intro
