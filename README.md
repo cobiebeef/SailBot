@@ -68,7 +68,8 @@ Headder comments shall include:
 - Notes
 - Contributors
 
-### 1. C/C++ <br>
+### 1. C/C++
+<br>
 A basic template for a C/C++ headder comment:
 ```c
 /*!
@@ -90,7 +91,8 @@ A basic template for a C/C++ headder comment:
  *      [contributors]
  */
 ```
-### 2. Python <br>
+### 2. Python
+<br>
 A basic template for a C/C++ headder comment:
 ```python
 """
