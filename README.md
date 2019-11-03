@@ -2,13 +2,13 @@
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents 1
-1. [Intro](README.md#1-intro)
-2. [Who We Are](README.md#2-who-we-are)
-3. [SailBot](README.md#3-sailbot)
-4. [Core Values](README.md#4-core-values)
-5. [What's Here](README.md#5-whats-here)
-6. [For Team Members](README.md#6-for-team-members)
-7. [Table of Contents 2](README.md#table-of-contents-2)
+1. [Intro](#1-intro)
+2. [Who We Are](#2-who-we-are)
+3. [SailBot](#3-sailbot)
+4. [Core Values](#4-core-values)
+5. [What's Here](#5-whats-here)
+6. [For Team Members](#6-for-team-members)
+7. [Table of Contents 2](#table-of-contents-2)
 
 ## 1. Intro
 The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition. Our goal is to build an autonomous sailboat, enter it into the competition and place. The team was started during the fall 2019 semester by @cobiebeef, a past competitor in SailBot.
@@ -49,14 +49,14 @@ The UMass SailBot Team has these core values:
 ## 5. What's Here
 In this Git you will find the code that we made to drive our boat along with a fleshed out Wiki on every aspect of it (and a few misc. items). You should expect to find Arduino C++ code for our rapid prototyping phase of the project, some python code for simulation and machine vision, and some c code for the finial product. Also expect some of the graphic design and CAD that went along with the project.
 
-[__UMass Amherst : SailBot__](README.md#umass-sailbot) <br> __November 2, 2019 by Yung, Cobie__
+[__UMass Amherst : SailBot__](#umass-sailbot) <br> __November 2, 2019 by Yung, Cobie__
 
 ## 6. For Team Members
 Hello team! This section will tell you how to contribute code to this Git; this includes a little bit of bookkeeping. Refer to __Table of Contents 2__ for info!
 
 # Table of Contents 2
-1. [Headder Comments](README.md#1-header-comments)
-   1. [C/C++](README.md#1-cc)
+1. [Headder Comments](#1-header-comments)
+   1. [C/C++](#1-cc)
    2. [Python](#2-python)
   
 ## 1. Header Comments
