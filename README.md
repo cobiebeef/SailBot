@@ -2,7 +2,7 @@
 Welcome the official UMass SailBot Team GitHub!
 
 # Table of Contents 1
-1. Intro
+1. [Intro](# 1. Intro)
 2. Who We Are
 3. Sailbot
 4. Core Values
