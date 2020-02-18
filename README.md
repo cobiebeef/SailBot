@@ -20,10 +20,9 @@ The UMass SailBot Team is a competitor in the annual IRSR "SailBot" Competition.
 UMass Sailbot is a Team of EE, Comp-E, ME, IE, and CS majors at the University of Massachusetts Amherst.
 Member history:
 - 2019 - 2020:
-  - __President:__ Cobie Yung
-  - __Vice President:__ Luke LaCasse
-  - __Secretary:__ Malcolm Okaya
-  - __Treasurer:__ Sebastion Harder
+  - Cobie Yung
+  - Malcolm Okaya
+  - Sebastion Harder
   - Gagan Biradar
   - Sameer Kamath
   - Zalman Lipschitz
@@ -31,6 +30,7 @@ Member history:
   - Henry Powell
   - Liam Rees
   - Taiyo Shapiro
+  - Luke LaCasse
 
 
 ## 3. SailBot
