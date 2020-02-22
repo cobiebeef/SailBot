@@ -22,7 +22,8 @@ Member history:
 - 2019 - 2020:
   - Cobie Yung
   - Malcolm Okaya
-  - Sebastion Harder
+  - Sebastian Harder
+  - Charles Orosz
   - Gagan Biradar
   - Sameer Kamath
   - Zalman Lipschitz
