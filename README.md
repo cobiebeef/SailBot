@@ -9,7 +9,7 @@ Welcome the official UMass SailBot Team GitHub!
 5. [What's Here](#5-whats-here)
 6. [For Team Members](#6-for-team-members)
 7. [Table of Contents 2](#table-of-contents-2)
-   1. [Headder Comments](#1-header-comments)
+   1. [Header Comments](#1-header-comments)
       1. [C/C++](#1-cc)
       2. [Python](#2-python)
 
