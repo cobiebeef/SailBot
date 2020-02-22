@@ -45,7 +45,7 @@ __History from the [SailBot website](https://www.sailbot.org)__
 ## 4. Core Values
 The UMass SailBot Team has these core values:
 - __Teamwork__
-- Keeping it __Opensource__
+- Keeping it __Open Source__
 - Showing __Good Sportsmanship__
 - __Conserving__ Aquatic Habitats
 
