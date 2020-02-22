@@ -9,7 +9,7 @@ Welcome the official UMass SailBot Team GitHub!
 5. [What's Here](#5-whats-here)
 6. [For Team Members](#6-for-team-members)
 7. [Table of Contents 2](#table-of-contents-2)
-   1. [Headder Comments](#1-header-comments)
+   1. [Header Comments](#1-header-comments)
       1. [C/C++](#1-cc)
       2. [Python](#2-python)
 
@@ -46,7 +46,7 @@ __History from the [SailBot website](https://www.sailbot.org)__
 ## 4. Core Values
 The UMass SailBot Team has these core values:
 - __Teamwork__
-- Keeping it __Opensource__
+- Keeping it __Open Source__
 - Showing __Good Sportsmanship__
 - __Conserving__ Aquatic Habitats
 
@@ -59,12 +59,12 @@ In this Git you will find the code that we made to drive our boat along with a f
 Hello team! This section will tell you how to contribute code to this Git; this includes a little bit of bookkeeping. Refer to __Table of Contents 2__ for info!
 
 # Table of Contents 2
-1. [Headder Comments](#1-header-comments)
+1. [Header Comments](#1-header-comments)
    1. [C/C++](#1-cc)
    2. [Python](#2-python)
   
 ## 1. Header Comments
-Headder comments shall include:
+Header comments shall include:
 - The name of the file
 - The purpose of the file
 - How to use the file
@@ -73,7 +73,7 @@ Headder comments shall include:
 - Contributors
 
 ### 1. C/C++
-A basic template for a C/C++ headder comment:
+A basic template for a C/C++ header comment:
 ```c
 /*!
  * filename: [filename]
@@ -95,7 +95,7 @@ A basic template for a C/C++ headder comment:
  */
 ```
 ### 2. Python
-A basic template for a C/C++ headder comment:
+A basic template for a Python header comment:
 ```python
 """
 filename: [filename]
