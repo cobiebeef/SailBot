@@ -1,9 +1,9 @@
 /*!
- * filename: "nav.cpp"
+ * filename: "UMSB_NAV.cpp"
  *
  * purpose: to provide basic navigation functions
  *
- * use: include "nav.hpp" and use the functions as described below
+ * use: include "UMSB_NAV.hpp" and use the functions as described below
  *
  * version:
  *		Alpha 0.00.1
@@ -15,9 +15,9 @@
  * contributors:
  *		Cobie Yung
  */
-#include "nav.hpp"
+#include "UMSB_NAV.hpp"
 
-namespace nav {
+namespace UMSB_NAV {
 	/** takes two chordinates and retuns a bearing in degrees **/
 	double bearing(double lat1, double long1, double lat2, double long2) {
 		double dlong = (long2 - long1) * deg_2_rad;
