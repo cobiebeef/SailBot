@@ -4,6 +4,7 @@
  * This is a library for the EMS22A30 rotary encoder
  *
  * Revision History:
+ *     Version 0.0.02 Renamed file and namespaces
  *     Version 0.0.01 Initil Commit
  *
  * Notes:
