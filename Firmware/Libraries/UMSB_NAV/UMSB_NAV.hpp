@@ -1,5 +1,5 @@
 /*!
- * filename: "nav.hpp"
+ * filename: "UMSB_NAV.hpp"
  *
  * purpose: to provide basic navigation functions
  *
@@ -14,12 +14,12 @@
  *		Cobie Yung
  */
 
-#ifndef NAV
-#define NAV
+#ifndef UMSB_NAV
+#define UMSB_NAV
 
 #include <math.h>
 
-namespace nav {
+namespace UMSB_NAV {
 	static constexpr double pi = 3.141592653589793,
 		EARTH_MAJOR_RADIUS = 6378137.0, EARTH_MINOR_RADIUS = 6356752.3,
 		deg_2_rad = pi / 180.0;
