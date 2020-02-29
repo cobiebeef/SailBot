@@ -26,6 +26,7 @@ Member history:
   - Charles Orosz
   - Gagan Biradar
   - Sameer Kamath
+  - Stephen Thimothe
   - Zalman Lipschitz
   - Joseph Maloyan
   - Henry Powell
