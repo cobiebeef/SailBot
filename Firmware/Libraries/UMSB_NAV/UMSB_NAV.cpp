@@ -25,12 +25,14 @@ namespace UMSB_NAV {
 		lat2 *= deg_2_rad;
 		double y = sin(dlong) * cos(lat2);
 		double x = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(dlong);
+		
 		return atan2(y, x) / deg_2_rad;
 	}
 
 	/** takes a latitude and returns the earth's radius in meters at that point **/
 	double earth_radius(double lat) {
 		lat *= deg_2_rad;
+		
 		return sqrt(
 			(pow(pow(EARTH_MAJOR_RADIUS, 2) * cos(lat), 2) + pow(pow(EARTH_MINOR_RADIUS, 2) * sin(lat), 2)) / 
 			(pow(EARTH_MAJOR_RADIUS * cos(lat), 2) + pow(EARTH_MINOR_RADIUS * sin(lat), 2))
