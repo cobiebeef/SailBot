@@ -19,8 +19,7 @@
 #include "UMSB_NAV.hpp"
 
 /** constructor for creating new instances of class **/
-UMSB_NAV::UMSB_NAV()
-{
+UMSB_NAV::UMSB_NAV() {
 
 }
 

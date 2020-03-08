@@ -19,8 +19,7 @@
 #include "Arduino.h"
 #include <SPI.h>
 
-class UMSB_EMS22A30
-{
+class UMSB_EMS22A30 {
 public:
 
 	/** pin being used for ss with SPI **/

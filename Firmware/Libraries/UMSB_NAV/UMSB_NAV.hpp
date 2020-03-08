@@ -27,8 +27,7 @@ static constexpr double pi = 3.141592653589793,
 						EARTH_MINOR_RADIUS = 6356752.3,
 						deg_2_rad = pi / 180.0;
 
-class UMSB_NAV 
-{
+class UMSB_NAV {
 	public:
 
 		/** initializes the class **/

@@ -21,14 +21,12 @@
 #include "UMSB_EMS22A30.h"
 
 /** constructor for creating new instances of class **/
-UMSB_EMS22A30::UMSB_EMS22A30(int pin) 
-{
+UMSB_EMS22A30::UMSB_EMS22A30(int pin) {
 	ss = pin;
 }
 
 /** reads the data from the rotatry encoder **/
-uint16_t UMSB_EMS22A30::read()
-{
+uint16_t UMSB_EMS22A30::read() {
 	digitalWrite(ss, LOW);
 	SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE1));
 	uint16_t data = SPI.transfer(0x00);
@@ -39,14 +37,12 @@ uint16_t UMSB_EMS22A30::read()
 }
 
 /** gets the angle from the EMS22A30 **/
-uint16_t UMSB_EMS22A30::getAngle()
-{
+uint16_t UMSB_EMS22A30::getAngle() {
 	uint16_t angle = 0;
 	uint16_t data = read();
 	
 	/** checks for even parity **/
-	if(!parityCheck(data))
-	{
+	if(!parityCheck(data)) {
 		/** grabs the first 10 bits **/
 		angle = data >> 6;
 	}
@@ -56,12 +52,10 @@ uint16_t UMSB_EMS22A30::getAngle()
 
 /** checks for parity
  *  returns 1 for odd parity, returns 0 for even parity **/
-bool UMSB_EMS22A30::parityCheck(uint16_t data)
-{
+bool UMSB_EMS22A30::parityCheck(uint16_t data) {
 	bool parity = 0; 
 	
-    while(data) 
-    {
+    while(data) {
         parity = !parity; 
         data = data & (data - 1); 
     }
@@ -70,8 +64,7 @@ bool UMSB_EMS22A30::parityCheck(uint16_t data)
 }
 
 /** starts up the SPI commuinication protocol **/
-void UMSB_EMS22A30::begin()
-{
+void UMSB_EMS22A30::begin() {
 	SPI.begin();
 	pinMode(ss, OUTPUT);
 	digitalWrite(ss, HIGH);
