@@ -18,12 +18,12 @@
 
 #include "UMSB_NAV.hpp"
 
-/** constructor for creating new instances of class **/
+/* constructor for creating new instances of class */
 UMSB_NAV::UMSB_NAV() {
 
 }
 
-/** takes two chordinates and retuns a bearing in degrees **/
+/* takes two chordinates and retuns a bearing in degrees */
 double UMSB_NAV::bearing(double lat1, double lon1, double lat2, double lon2) {
 	double dlon = (lon2 - lon1) * deg_2_rad;
 	lat1 *= deg_2_rad;
@@ -33,7 +33,7 @@ double UMSB_NAV::bearing(double lat1, double lon1, double lat2, double lon2) {
 	return atan2(y, x) / deg_2_rad;
 }
 
-/** takes a latitude and returns the earth's radius in meters at that point **/
+/* takes a latitude and returns the earth's radius in meters at that point */
 double earth_radius(double lat) {
 	lat *= deg_2_rad;
 	return sqrt(
@@ -42,7 +42,7 @@ double earth_radius(double lat) {
 	);
 }
 
-/** takes two chordinates and returns the distance between them in meters **/
+/* takes two chordinates and returns the distance between them in meters */
 double UMSB_NAV::distance(double lat1, double lon1, double lat2, double lon2) {
 	double erad = earth_radius((lat1 + lat2) / 2.0);
 	double dlon = (lon2 - lon1) * deg_2_rad;
@@ -53,7 +53,7 @@ double UMSB_NAV::distance(double lat1, double lon1, double lat2, double lon2) {
 	return d;
 }
 		
-/** takes a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates**/
+/* takes a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates*/
 void UMSB_NAV::destination(double lat, double lon, double distance, double bearing, double newLatLon[]) {
 	double aDist = 1000*distance / earth_radius(lat);
 	newLatLon[0] = (asin(sin(lat*deg_2_rad)*cos(aDist)+cos(lat*deg_2_rad)*sin(aDist)*cos(bearing*deg_2_rad))) / deg_2_rad;

@@ -22,21 +22,21 @@
 class UMSB_EMS22A30 {
 public:
 
-	/** pin being used for ss with SPI **/
+	/* pin being used for ss with SPI */
 	int ss;
 
-	/** initializes the class with a default ss value **/
+	/* initializes the class with a default ss value */
 	UMSB_EMS22A30(int ss = 0);
 
-	/** starts everything necessary for rotary encoder operation **/
+	/* starts everything necessary for rotary encoder operation */
 	void begin();
 
-	/** returns the current angle **/
+	/* returns the current angle */
 	uint16_t getAngle();
 
-	/** reads data from the sensor **/
+	/* reads data from the sensor */
 	uint16_t read();
 
-	/** checks for errors in the data **/
+	/* checks for errors in the data */
 	bool parityCheck(uint16_t data);
 };

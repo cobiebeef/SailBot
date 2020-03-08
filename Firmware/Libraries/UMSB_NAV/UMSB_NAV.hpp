@@ -21,7 +21,7 @@
 
 #include <math.h>
 
-/** useful constants for calculations **/
+/* useful constants for calculations */
 static constexpr double pi = 3.141592653589793,
 						EARTH_MAJOR_RADIUS = 6378137.0, 
 						EARTH_MINOR_RADIUS = 6356752.3,
@@ -30,16 +30,16 @@ static constexpr double pi = 3.141592653589793,
 class UMSB_NAV {
 	public:
 
-		/** initializes the class **/
+		/* initializes the class */
 		UMSB_NAV();
 
-		/** takes two coordinates and returns the distance between them in meters **/
+		/* takes two coordinates and returns the distance between them in meters */
 		double distance(double lat1, double lon1, double lat2, double lon2);
 
-		/** takes two coordinates and retuns a bearing in degrees **/
+		/* takes two coordinates and retuns a bearing in degrees */
 		double bearing(double lat1, double lon1, double lat2, double lon2);
 		
-		/** takes a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates**/
+		/* takes a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates*/
 		void destination(double lat, double lon, double distance, double bearing, double newLatLon[]);
 		
 };
