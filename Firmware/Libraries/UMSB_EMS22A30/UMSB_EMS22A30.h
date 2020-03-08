@@ -28,15 +28,15 @@ public:
 	/* initializes the class with a default ss value */
 	UMSB_EMS22A30(int ss = 0);
 
-	/* starts everything necessary for rotary encoder operation */
+	/* start everything necessary for rotary encoder operation */
 	void begin();
 
-	/* returns the current angle */
+	/* return the current angle */
 	uint16_t getAngle();
 
-	/* reads data from the sensor */
+	/* read data from the sensor */
 	uint16_t read();
 
-	/* checks for errors in the data */
+	/* check for errors in the data */
 	bool parityCheck(uint16_t data);
 };
