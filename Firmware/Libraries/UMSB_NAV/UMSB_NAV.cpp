@@ -1,13 +1,13 @@
 /*
  * filename: UMSB_NAV.cpp
  *
- * purpose: library for use with GPS navigation
+ * purpose: Library for use with GPS navigation
  *
- * use: include "UMSB_NAV.hpp" and use the functions as described below
+ * use: Include "UMSB_NAV.hpp" and use the functions as described below
  *
  * version:
- * 		version 0.2.0 - 3/8/20: restructured class, added destination function, and general fixes
- *		version 0.1.0
+ * 		Version 0.2.0 - 3/8/20: restructured class, added destination function, and general fixes
+ *		Version 0.1.0
  *
  * notes:
  *
@@ -18,12 +18,12 @@
 
 #include "UMSB_NAV.hpp"
 
-/* constructor for creating new instances of class */
+/* Constructor for creating new instances of class */
 UMSB_NAV::UMSB_NAV() {
 
 }
 
-/* takes two chordinates and retuns a bearing in degrees */
+/* Take two coordinates and retuns a bearing in degrees */
 double UMSB_NAV::bearing(double lat1, double lon1, double lat2, double lon2) {
 	double dlon = (lon2 - lon1) * deg_2_rad;
 	lat1 *= deg_2_rad;
@@ -33,7 +33,7 @@ double UMSB_NAV::bearing(double lat1, double lon1, double lat2, double lon2) {
 	return atan2(y, x) / deg_2_rad;
 }
 
-/* take a latitude and returns the earth's radius in meters at that point */
+/* Take a latitude and returns the earth's radius in meters at that point */
 double earth_radius(double lat) {
 	lat *= deg_2_rad;
 	return sqrt(
@@ -42,7 +42,7 @@ double earth_radius(double lat) {
 	);
 }
 
-/* take two chordinates and returns the distance between them in meters */
+/* Take two coordinates and returns the distance between them in meters */
 double UMSB_NAV::distance(double lat1, double lon1, double lat2, double lon2) {
 	double erad = earth_radius((lat1 + lat2) / 2.0);
 	double dlon = (lon2 - lon1) * deg_2_rad;
@@ -53,7 +53,7 @@ double UMSB_NAV::distance(double lat1, double lon1, double lat2, double lon2) {
 	return d;
 }
 		
-/* take a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates*/
+/* Take a pair of coordinates, a distance in meters, and a bearing, and calculates the resulting coordinates*/
 void UMSB_NAV::destination(double lat, double lon, double distance, double bearing, double newLatLon[]) {
 	double aDist = 1000*distance / earth_radius(lat);
 	newLatLon[0] = (asin(sin(lat*deg_2_rad)*cos(aDist)+cos(lat*deg_2_rad)*sin(aDist)*cos(bearing*deg_2_rad))) / deg_2_rad;
