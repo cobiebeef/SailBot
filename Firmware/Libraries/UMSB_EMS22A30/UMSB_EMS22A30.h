@@ -1,26 +1,43 @@
-/*!
- * @flie UMSB_EMS22A30.h
+/*
+ * filename: UMSB_EMS22A30.h
  *
- * This is a library for the EMS22A30 rotary encoder
+ * purpose: library for the EMS22A30 rotary encoder
  *
- * Revision History:
- *     Version 0.0.02 Renamed file and namespaces
- *     Version 0.0.01 Initil Commit
+ * use: include this file and use the functions as described below
  *
- * Notes:
+ * version:
+ *     version 0.1.1: Renamed file and namespaces
+ *     version 0.1.0: Initial Commit
+ *
+ * notes:
+ *
+ * contributors:
+ *      Cobie Yung
+ * 		Malcolm Okaya
  */
 
 #include "Arduino.h"
-
 #include <SPI.h>
 
 class UMSB_EMS22A30
 {
 public:
+
+	/** pin being used for ss with SPI **/
 	int ss;
+
+	/** initializes the class with a default ss value **/
 	UMSB_EMS22A30(int ss = 0);
+
+	/** starts everything necessary for rotary encoder operation **/
 	void begin();
+
+	/** returns the current angle **/
 	uint16_t getAngle();
+
+	/** reads data from the sensor **/
 	uint16_t read();
+
+	/** checks for errors in the data **/
 	bool parityCheck(uint16_t data);
 };
