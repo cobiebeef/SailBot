@@ -6,7 +6,7 @@
  * use: Include "UMSB_EMS22A30.hpp" and use the functions as described below
  *
  * version:
- *		Version 0.1.1:　Renamed Files and Namespaces
+ *	Version 0.1.1:　Renamed Files and Namespaces
  *      Version 0.1.0:　Initia--l Commit
  *
  * notes:
